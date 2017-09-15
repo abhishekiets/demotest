@@ -1,0 +1,186 @@
+/*!
+ * CSS for Styles
+ * Copyright 2017-2018
+ */
+
+/*----Main File----*/
+.mainBtns{
+	width: 440px;
+	height: 100px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	margin-left: -220px;
+	margin-top: -50px;
+	display: none;
+}
+.box-nav li a{
+	text-align: center;
+}
+.logo{
+	float: left;
+	width: 139px;
+	padding: 5px;
+	text-align: center;
+}
+.logo img{
+	padding-right: 5px;
+}
+.headerLinks{
+	float: left;
+	padding-top: 20px;
+	padding-left: 10px;
+	font-size: 12px;
+}
+.intro-header{
+	display: none;
+}
+
+/*---MLU Files---*/
+.mlulogo{
+	float: left;
+	width: 240px;
+	padding: 5px;
+	text-align: center;
+}
+.mlulogo img{
+	padding-right: 8px;
+}
+.topBarSection{
+	clear: both;
+}
+.mulBtnNav{
+}
+.mulBtnNav ul li a{
+	text-align: center;
+	margin: 5px;
+	background-color: rgba(171,171,171,0.40);
+}
+
+.divDropSelect{
+	border:solid 1px #999999;
+	border-radius:5px;
+	padding:5px;
+	display:none;
+}
+
+.dropBoxSelect{
+	text-align:center;
+}
+.dropBoxSelect option{
+	background-color:rgba(0,153,51,0.2);
+	padding:10px;
+}
+
+.topicSection{
+	display: none;
+	padding: 10px;
+}
+.topicDiv{
+	overflow: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+.topicDiv ul{
+	padding: 0;
+}
+.topicDiv ul li{
+	display: inline-block;
+	list-style: none;
+}
+.topicSection ul li a{
+	margin: 10px;
+	display: block;
+	display: inline-flex;
+	width: 200px;
+	height: 100px;
+	padding: 4px;
+	background-color: #B7BAF3;
+	white-space:normal;
+}
+
+.lessonSection{
+	display: none;
+	padding: 10px;
+}
+.lessonDiv{
+	overflow: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+.lessonDiv ul{
+	padding: 0;
+}
+.lessonDiv ul li{
+	display: inline-block;
+	list-style: none;
+}
+.lessonSection ul li a{
+	margin: 10px;
+	display: block;
+	display: inline-flex;
+	width: 200px;
+	height: 100px;
+	background-color: #B7BAF3;
+	padding: 4px;
+	word-wrap: normal;
+}
+
+#luShell{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	padding: 20px;
+	padding-bottom: 30px;
+	background: rgba(0,0,0,0.8);
+	z-index: 10;
+	display: none;
+}
+#luPopupClose{
+	width:30px;
+	height: 30px;
+	text-align: center;
+	color: #fff;
+	background:rgba(0,0,0,1);
+	border-radius: 50px;
+	margin-top: 8px;
+	margin-right: 8px;
+	padding-top:4px;
+}
+.luShellInner{
+	background: #fff;
+	border-radius: 5px;
+	height: auto !important;
+}
+.luShellInner header{
+	background-color: rgba(255,255,255, 0.3);
+	padding: 5px;
+	border-bottom: solid rgba(0,0,0, 0.1) 1px;
+}
+#luShell-player{
+	background-color:#646262;
+}
+#luShell-player video{
+	padding-top: 6px;
+	width: 100%;
+	position: relative;
+	left: 5%;
+}
+#luShell-controls{
+	padding: 10px;
+}
+
+/*Extra space*/
+.space{
+	color: #fff;
+}
+
+.content_footer{
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: fixed;
+	text-align: center;
+}
