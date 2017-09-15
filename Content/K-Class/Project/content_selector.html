@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>::Multimedia Learning Units::</title>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		
+		<!--JSON Files-->
+		<script src="../Shell/db/cbse/standard.json" ></script>
+		
+		<!--Link CSS files-->
+		<link href="../../Content/Shell/css/styles.css" rel="stylesheet"/>
+		<link href="../../Content/Shell/css/bootstrap.css" rel="stylesheet"/>
+
+		<!--Link Script files-->
+		<script src="../../Content/Shell/scripts/cs_script.js"></script>
+		<script src="../../Content/Shell/scripts/bootstrap.js"></script>
+		<script src="../../Content/Shell/scripts/jquery-2.0.2.min.js"></script>
+		
+	</head>
+<body>
+	<div class="container">
+		
+		<header class="mlu_header">
+			<div class="mlulogo"><img src="../../Content/Shell/images/mlu_logo.jpg"/>Multimedia Learning Units</div>
+			<div class="headerLinks">CBSE</div>
+		</header>
+         		
+		<section class="topBarSection">
+        <hr>  
+			<div class="mluBtns">
+				<nav class="mulBtnNav">
+					<ul class="nav nav-tabs-justified">
+						<li class="col-lg3 col-sm-3 col-md-3 col-xs-12" id="stdBtn"><a href="#">Standards</a>
+                        	<div class="divDropSelect" id="divStdSelect">
+                                <select class="form-control dropBoxSelect" id="stdSelect">
+									<!-- load options here -->
+									<!--<option>this is very large text and it is not fitting in</option>
+									<option>this is very large text and it is not fitting another text in</option>-->
+                                </select>
+                            </div>
+                        </li>
+						<li class="col-lg3 col-sm-3 col-md-3 col-xs-12" id="subBtn"><a href="#">Subjects</a>
+                        	<div class="divDropSelect" id="divSubSelect">
+                                <select class="form-control dropBoxSelect" id="subSelect">
+									<!-- load options here -->
+                                </select>
+                            </div>
+                        </li>
+						<li class="col-lg3 col-sm-3 col-md-3 col-xs-12" id="chapBtn"><a href="#">Chapters</a>
+                        	<div class="divDropSelect" id="divChapSelect">
+                                <select class="form-control dropBoxSelect" id="chapSelect">
+                                    <!-- load options here -->
+                                </select>
+                            </div>
+                        </li>
+					</ul>
+				</nav>
+			</div>
+		</section>
+		
+		<section class="topicSection">
+			<nav class="nav">
+					<div class="panel-body topicDiv" id="">
+						<ul class="" id="topicList">
+							<!-- load list here -->
+						</ul>
+					</div>
+			</nav>
+		</section>
+				
+		<section class="lessonSection">
+			<nav class="nav">
+					<div class="panel-body lessonDiv" id="lessonPanel">
+						<ul class="" id="lessonList">
+							<!-- load list here -->
+						</ul>
+					</div>
+			</nav>
+		</section>
+		
+		<div class="container-fluid" data-popup="lupopup-1" id="luShell">
+			<div class="luShellInner">
+				<a href="#" title="" data-popup-close="lupopup-1" class="close" id="luPopupClose">X</a>
+				<header class="shell-header">
+					<h4>Lesson Name</h4>
+					<h5></h5>
+				</header>
+				
+				<section class="">
+					<div id="luShell-player">
+						<video class="" id="luShell-video" controls autoplay>
+							<!-- load source here -->
+							Your browser does not supporting video feature. Please update your browser.	
+						</video>
+					</div>
+					<div id="luShell-controls">
+							controls	
+					</div>
+				</section>
+			</div>
+		</div>
+		
+		<div class="space"><p>.</p><p>.</p></div>
+		
+		<footer class="panel-footer content_footer">
+			<div>&copy; 2017 IL&amp;FS Education &amp; Technology Services Ltd. All Rights Reserved.</div>
+		</footer>
+	</div>
+	
+	<script id="loadChapJS"></script>
+	<script id="loadLessJS"></script>
+</body>
+</html>
