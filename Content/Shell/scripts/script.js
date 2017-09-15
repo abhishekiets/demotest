@@ -7,6 +7,7 @@ window.onload = function() {
 		var btn = document.getElementById("btn"+i);
 		btn.addEventListener("click", function(){
 			var idName = this.id.charAt(3);
+			alert('hi ' + mainFile_arr[idNmae]);
 			window.location = "Content/" + mainFile_arr[idName] + ".html";
 		});
 	}
