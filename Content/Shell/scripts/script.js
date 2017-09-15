@@ -4,12 +4,12 @@ window.onload = function() {
 	// Buttons
 	var totMainBtns = 4;
 	
-			alert('hdsdsi ');
 	for(var i=1; i <= totMainBtns; i++){
 		var btn = document.getElementById("btn"+i);
 		btn.addEventListener("click", function(){
+			
+			alert('hi ' + this + " " + this.id);
 			var idName = this.id.charAt(3);
-			alert('hi ' + mainFile_arr[idNmae]);
 			window.location = "Content/" + mainFile_arr[idName] + ".html";
 		});
 	}
