@@ -1,0 +1,10 @@
+// JSON Document
+
+var lesson = {"lessonData":{
+							"enable":"a",
+							"visible":"a",
+							"M":[
+								{"lesspath":"Maths_8_8_29", "name":"Laws of Exponents"}
+							]
+						}
+					}
