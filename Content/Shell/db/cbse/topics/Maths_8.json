@@ -1,0 +1,55 @@
+// JSON Document
+
+var topic = {"topicData":[
+							{"Chapter":{
+									"id":"1",
+									"name":"Exponents and Powers",
+									"M":[
+										{"id":"1", "name":"Powers with Negative Exponents"},
+										{"id":"2", "name":"Laws of Exponents"},
+										{"id":"3", "name":"Use of Exponents to Express Small Numbers in Standard Form"}
+									]
+								}
+							} ,
+							{"Chapter":{
+									"id":"2",
+									"name":"Direct and Inverse Proportions",
+									"M":[
+										{"id":"4", "name":"Direct Proportion"},
+										{"id":"5", "name":"Inverse Proportion<"}
+									]						
+								}
+							},
+							{"Chapter":{
+									"id":"3",
+									"name":"Factorization",
+									"M":[
+										{"id":"6", "name":"Introduction"},
+										{"id":"7", "name":"What is Factorisation?"},
+										{"id":"8", "name":"Division of Algebraic Expressions"},
+										{"id":"9", "name":"Division of Algebraic Expressions Continued (Polynomial ÷ Polynomial)"}
+									]
+								}
+							},	
+							{"Chapter":{
+									"id":"4",
+									"name":"Introduction to Graphs",
+									"M":[
+										{"id":"10", "name":"Introduction"},
+										{"id":"11", "name":"Linear Graphs"}
+									]	
+								}
+							} ,
+							{"Chapter":{
+									"id":"5",
+									"name":"Playing with Numbers",
+									"M":[
+										{"id":"10", "name":"● Numbers in General Form <br>● Games with Numbers <br>● Letters for Digits"},
+										{"id":"11", "name":"Tests of Divisibility"}
+									]	
+								}
+							} 
+						]
+				}
+
+/**/
