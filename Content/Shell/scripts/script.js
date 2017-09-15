@@ -3,6 +3,8 @@ window.onload = function() {
 	
 	// Buttons
 	var totMainBtns = 4;
+	
+			alert('hdsdsi ');
 	for(var i=1; i <= totMainBtns; i++){
 		var btn = document.getElementById("btn"+i);
 		btn.addEventListener("click", function(){
