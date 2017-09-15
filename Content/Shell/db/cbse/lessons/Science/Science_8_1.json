@@ -1,0 +1,12 @@
+// JSON Document
+
+var lesson = {"lessonData":{
+							"enable":"a",
+							"visible":"a",
+							"M":[
+								{"lesspath":"Biology_8_8_302", "name":"What is Agriculture?"},
+								{"lesspath":"Biology_8_8_303", "name":"Types of Crops"},
+								{"lesspath":"Biology_8_8_304", "name":"Types of Soils"},
+							]
+						}
+					}

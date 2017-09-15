@@ -1,0 +1,17 @@
+// JSON Document
+
+var lesson = {"lessonData":{
+							"enable":"a",
+							"visible":"a",
+							"M":[
+								{"lesspath":"Science_15_8_451", "name":"Agriculture"},
+								{"lesspath":"Biology_8_8_305", "name":"Preparation of Soil"},
+								{"lesspath":"Biology_15_8_3", "name":"Agricultural Implements"},
+								{"lesspath":"Biology_8_8_306", "name":"Sowing"},
+								{"lesspath":"Science_15_8_472", "name":"Manure,Fertilisers and Irrigation"},
+								{"lesspath":"Biology_8_8_307", "name":"Protection from Weeds"},
+								{"lesspath":"Science_8_8_938", "name":"Harvesting"},
+								{"lesspath":"Science_15_8_452", "name":"Storage"}
+							]
+						}
+					}
