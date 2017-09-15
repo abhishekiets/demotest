@@ -1,0 +1,19 @@
+// JSON Document
+
+var standard = {"stdData":[
+							{"Class": "NUR","Subjects":"English"},
+							{"Class":"LKG", "Subjects":"Maths,English"},
+				 			{"Class":"UKG", "Subjects":"English"},
+				 			{"Class":"1", "Subjects":"English"},
+				 			{"Class":"2", "Subjects":"English Grammar,Maths"},	
+							{"Class": "3","Subjects":"English Grammar,EVS,Maths"},
+							{"Class":"4", "Subjects":"English Grammar,EVS,Maths"},
+				 			{"Class":"5", "Subjects":"English Grammar,EVS,Maths"},
+				 			{"Class":"6", "Subjects":"English Grammar,Maths,Science,History,Geography"},
+				 			{"Class":"7", "Subjects":"English Grammar,Maths,Science,History,Geography"},	
+				 			{"Class":"8", "Subjects":"English Grammar,Maths,Science,Civics,Geography"},
+				 			{"Class":"9", "Subjects":"English Grammar,Maths,Science,Civics,Geography"},
+							{"Class":"10", "Subjects":"English Grammar,Maths,Science,Civics,Geography"},
+						]
+}
+/**/
