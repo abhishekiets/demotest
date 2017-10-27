@@ -11,6 +11,7 @@ window.onload = function() {
 			alert('hi ' + this + " " + this.id);
 			var idName = this.id.charAt(3);
 			window.location = "Content/" + mainFile_arr[idName] + ".html";
+			alert(window.location)
 		});
 	}
 	
